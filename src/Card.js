@@ -6,7 +6,7 @@ function Card(props) {
     const descption = props.desc;
 
     return (
-        <div class="Card"> 
+        <div className="Card"> 
             <button type="button">delete</button> 
             <h3>{header}</h3> 
             <p>{descption}</p> 
